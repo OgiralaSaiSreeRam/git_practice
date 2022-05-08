@@ -1,0 +1,6 @@
+git status
+git add .   ---> to add all the files in the cwd to the stage are.
+Stage are ---> The area where all the changes made will be reflected/shown in the commit history. When a commit is performed only the files added with the current changes to the stage area will be committed.
+Even if a change is made to the file which is in the stage area, before the commit if the new changes are not added to the stage it will not be shown in the commit.
+
+
