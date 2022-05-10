@@ -8,5 +8,16 @@ Even if a change is made to the file which is in the stage area, before the comm
 
 git restore --staged filename.txt   ---> will remove the file from the stage area but will show it in modified changes section.
 git stash ---> all the changes that have been added to the stage area can be stashed so that any commits now made will not have the present changes in the stash. The changes in stash can be retrieved later.
+
+--------------------something that happened while testing stash----------------
+made changes and stashed the file. But made changes to the current file not in stash and commited it and then later popped the stash.
+<<<<<<< Updated upstream
 git stash pop ---> to retrieve those changes.
+=======
+
+>>>>>>> Stashed changes
 commit is like a photo. You can go back to that point in time.
+---------------------------------------------------
+git stash clear ---> to clear the changes in the stash
+
+git remote add origin <<url>>  ---> for connecting with the remote repository and local. By convention its known as origin but you can use any name.
