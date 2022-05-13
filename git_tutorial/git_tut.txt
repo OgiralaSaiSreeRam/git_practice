@@ -37,3 +37,4 @@ git checkout <branch_name>   ---> For changing the head to branch_name.
 For one branch only 1 pull request can be requested. Even if you make commits on a branch which already has an open pull request then it  will that new commit also be added to the open pull request automatically even if you dont want that commit to be part of the merge.
 Hence always make new branches for any new features/bugs to be addressed and create a new pull requuest on that,so that it will be easier for the reviewer also to track the changes. If not more than one features/changes which you want to implement will all go under a single PR.
 
+git branch-sreeram.
