@@ -24,3 +24,5 @@ git remote add origin <<url>>  ---> for connecting with the remote repository an
 
 git push <origin> <main>  ---> to push all your commits  to remote. which remote repo-name:origin, which branch-name:main. 
 but there is some confusion between main and master in git.
+
+git branch-master.
